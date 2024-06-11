@@ -1,25 +1,41 @@
-
-
 <template>
-  <div id="hero"> <h2>Cracked Windshield? <br>We've Got You Covered!</h2>
-   <h4>Fast, Reliable Auto Glass Repair & Replacement</h4>
-   <button>Get a Free Quote Today!</button></div>
+    <div id="hero" class="card">
+        <h1>Cracked Windshield?</h1> <h2>We've Got You Covered!</h2>
+        <h4>Fast, Reliable Auto Glass Repair & Replacement</h4>
+        <button>Get a Free Quote Today!</button>
+    </div>
+    <div class="card" id="about">
+        <h3>About Williams Auto Glass</h3>
+        <p class="right">Williams Auto Glass is your trusted auto glass repair and replacement specialist in [City, State].
+            We've been serving the community for [Number] years, providing high-quality, reliable service at competitive
+            prices. Our team of experienced technicians is dedicated to getting you back on the road safely and quickly.
+        </p>
+    </div>
 </template>
 
 <style scoped>
-
-button{
-    border:3px solid rgb(5, 111, 14);
-    padding:15px;
+button {
+    border: 5px solid rgb(4, 160, 17);
+    padding: 10px;
     font-size: large;
 }
 #hero{
-    background-image: url('../assets/images/heroimg.png');
-/* Suggested code may be subject to a license. Learn more: ~LicenseLog:2385168930. */
-    background-position: center;
+    background-image: radial-gradient(circle, rgba(56, 56, 56, 0.696) 45%,transparent 75%),url('../assets/images/heroimg.png');
+    background-size:cover;
+     background-position:left; 
     background-repeat: no-repeat;
-    background-size: cover;
-    background-color: transparent;
+    /* background: radial-gradient(transperent,gray); */
+}
+#about {
     
+    /* padding: 15px; */
+    text-align: left;
+    background-color:  purple;
+
+
+}
+
+.right {
+   
 }
 </style>

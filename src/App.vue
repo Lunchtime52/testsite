@@ -10,7 +10,7 @@ const rows=ref(5)
  
   <p>Hello World</p>
   <!-- <Row v-for="n in rows" :key="n" :num="n"></Row> -->
-<Row></Row>  
+<!-- <Row></Row>   -->
 <About></About>
 </template>
 
