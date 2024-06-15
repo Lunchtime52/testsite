@@ -11,6 +11,7 @@
             prices. Our team of experienced technicians is dedicated to getting you back on the road safely and quickly.
         </p>
     </div>
+   
 </template>
 
 <style scoped>
@@ -35,7 +36,4 @@ button {
 
 }
 
-.right {
-   
-}
 </style>
