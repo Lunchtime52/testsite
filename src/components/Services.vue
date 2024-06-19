@@ -34,19 +34,17 @@
 
 <style scoped>
 .column {
-  float: left;
   width: 25%;
   padding: 0 10px;
-  color: black;
-
+  color: white;
+  margin-bottom: 20px;
 }
 
 /* Remove extra left and right margins, due to padding in columns */
 .row {
-  margin: 20px 5px;
+  /* margin: 20px 5px; */
   justify-content: center;
   display: flex;
-
 }
 
 /* Clear floats after the columns */
@@ -62,15 +60,21 @@
   /* this adds the "card" effect */
   padding: 16px;
   text-align: center;
-  background-color: #f1f1f1;
+  background-color: gray;
+  min-height: 175px;
+  border-radius: 10px;
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
-    display: block;
-    margin-bottom: 20px;
+    /* display: block; */
+  }
+
+  .row {
+    display: grid;
+    place-items: center;
   }
 }
 </style>
