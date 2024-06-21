@@ -4,32 +4,24 @@
     <div class="column">
       <div class="card">
         <h4>Windshield Repair</h4>
+        <p>Explain benefits of repair over replacement for minor cracks or chips.</p>
       </div>
     </div>
     <div class="column">
       <div class="card">
         <h4>Windshield Replacement</h4>
+        <p>Emphasize safety and using high-quality materials.</p>
       </div>
     </div>
     <div class="column">
       <div class="card">
-        <h4>Rock Chip Repair</h4>
+        <h4>Mobile Service</h4>
+        <p>Promote the convenience of getting repairs done at your location.</p>
       </div>
     </div>
   </div>
 
-  <div class="row">
-    <div class="column">
-      <div class="card">
-        <h4>Auto Glass Repair</h4>
-      </div>
-    </div>
-    <div class="column">
-      <div class="card">
-        <h4>Auto Glass Replacement</h4>
-      </div>
-    </div>
-  </div>
+
 </template>
 
 <style scoped>
@@ -68,7 +60,7 @@
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {
   .column {
-    width: 100%;
+    width: 75%;
     /* display: block; */
   }
 

@@ -3,6 +3,7 @@ import Row from './components/Row.vue'
 import { ref } from 'vue';
 import About from './components/About.vue'
 import Services from './components/Services.vue'
+import Footer from './components/Footer.vue'
 
 const rows=ref(5)
 </script>
@@ -14,6 +15,7 @@ const rows=ref(5)
 <!-- <Row></Row>   -->
 <About></About>
 <Services></Services>
+<Footer></Footer>
 </template>
 
 <style scoped>
