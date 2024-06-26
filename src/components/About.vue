@@ -2,7 +2,7 @@
     <div id="hero" class="card">
         <h1>Cracked Windshield?</h1> <h2>We've Got You Covered!</h2>
         <h4>Fast, Reliable Auto Glass Repair & Replacement</h4>
-        <button>Get a Free Quote Today!</button>
+        <RouterLink to="/contact"><button>Get a Free Quote Today!</button></RouterLink>
     </div>
     <div class="card" id="about">
         <h3>About Williams Auto Glass</h3>

@@ -1,19 +1,19 @@
 {
   "name": "myapp",
   "version": "0.0.0",
-  "homepage":"https://lunchtime52.github.io/testsite/",
+  "homepage": "https://lunchtime52.github.io/testsite/",
   "private": true,
   "scripts": {
     "build": "vite build",
     "dev": "vite",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
-
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "register-service-worker": "^1.7.2",
-    "vue": "^3.4.27"
+    "vue": "^3.4.27",
+    "vue-router": "^4.4.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",

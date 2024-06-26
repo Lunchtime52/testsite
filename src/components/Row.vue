@@ -8,7 +8,7 @@ defineProps(['num'])
         <h2>A full-service Knoxville web design company to help grow your business.</h2>
         <p>Smoky Mountain Web Design is a local Knoxville web design company located in Pigeon Forge, TN. We provide
             over 15 years of delivering strategy, design and technology to help grow small businesses.</p>
-            <button>Pricing & Plans</button>
+            <Routerlink to="/contactform"><button>Pricing & Plans</button></Routerlink>
 
     </div>
 </template>
