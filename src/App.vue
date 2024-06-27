@@ -20,10 +20,22 @@ import { RouterView } from 'vue-router';
 </template>
 
 <style scoped>
+@import './style.css';
 nav{
   padding:10px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 55px;
+  background-color:var(--secondary-color);
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  
 }
-nav > a + a {
-  margin-left: 20px;
+nav > a {
+  padding: 15px;
+  color: black;
+  
 }
 </style>

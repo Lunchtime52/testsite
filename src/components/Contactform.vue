@@ -29,20 +29,23 @@
 <style scoped>
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
+  background-color: white;
+  color: black;
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  box-sizing: border-box; 
+  /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
+   margin-bottom: 16px; /*Bottom margin */
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
+  background-color: var(--secondary-color);
+  color: black;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -57,7 +60,8 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  margin: 10px 20px;
+  /* background-color: #f2f2f2; */
   padding: 20px;
 }
 </style>

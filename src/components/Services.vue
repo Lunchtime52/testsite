@@ -52,9 +52,10 @@
   /* this adds the "card" effect */
   padding: 16px;
   text-align: center;
-  background-color: gray;
+  background-color: #E4CC37;
   min-height: 175px;
   border-radius: 10px;
+  color: black;
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */

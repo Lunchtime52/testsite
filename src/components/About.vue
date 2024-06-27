@@ -26,21 +26,22 @@
 }
 #about {
     
-    /* padding: 15px; */
+    padding: 45px;
     text-align: left;
-    background-color:  purple;
+    background-color:  var(--primary-color);
 
 
 }
 .button{
-    border: 5px solid rgb(4, 160, 17);
+    border: 5px solid var(--secondary-color);
     padding: 15px;
     font-size: large;
-    background-color: rgb(89, 89, 89);
+    background-color: var(--secondary-color);
     border-radius: 10px;
-    color:white;
+    color:black;
     margin:8px;
     display:inline-block;
+   font-weight: bolder;
 }
 h1{
     margin-top:10px;
