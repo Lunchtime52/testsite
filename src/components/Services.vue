@@ -62,7 +62,7 @@
 @media screen and (max-width: 600px) {
   .column {
     width: 75%;
-    /* display: block; */
+    display: block;
   }
 
   .row {
