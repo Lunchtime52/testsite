@@ -4,7 +4,9 @@
     <div class="column">
       <div class="card">
         <h4>Windshield Repair</h4>
-        <p>Explain benefits of repair over replacement for minor cracks or chips.</p>
+        <p>
+          Explain benefits of repair over replacement for minor cracks or chips.
+        </p>
       </div>
     </div>
     <div class="column">
@@ -20,8 +22,6 @@
       </div>
     </div>
   </div>
-
-
 </template>
 
 <style scoped>
@@ -52,7 +52,7 @@
   /* this adds the "card" effect */
   padding: 16px;
   text-align: center;
-  background-color: #E4CC37;
+  background-color: #e4cc37;
   min-height: 175px;
   border-radius: 10px;
   color: black;
