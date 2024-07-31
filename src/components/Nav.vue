@@ -21,8 +21,8 @@ defineExpose({ menuToggle });
     </div>
     <div id="side-nav">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><RouterLink to="/">Home</RouterLink></li>
+        <li><RouterLink to="/contact">Contact</RouterLink></li>
         <!-- ... more navigation links -->
       </ul>
     </div>
@@ -57,18 +57,28 @@ nav button {
 #menu-btn {
   display: none;
 }
+#side-nav ul {
+  list-style: none;
+  padding: 0;
+}
+#side-nav li {
+  padding-top: 10px;
+}
 #side-nav {
   position: fixed;
-  top: 0;
-  left: -250px; /* Initially off-screen */
-  width: 250px;
+  text-align: center;
+  top: 74px;
+  right: -250px; /* Initially off-screen */
+  min-width: 50%;
   height: 100%;
-  background-color: #f2f2f2;
-  transition: left 0.3s ease; /* Smooth transition for opening/closing */
+  background-color: #6d027b;
+  transition: right 0.3s ease; /* Smooth transition for opening/closing */
   z-index: 100; /* Ensure it's above other content */
+  display: none;
 }
 #side-nav.open {
-  left: 0;
+  display: block;
+  right: 0;
 }
 @media screen and (max-width: 700px) {
   #menu-items {
