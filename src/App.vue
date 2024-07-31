@@ -2,12 +2,10 @@
 import Footer from "./components/Footer.vue";
 import Nav from "./components/Nav.vue";
 import { RouterView } from "vue-router";
-// import{MobileNav} from "./components/MobileNav.vue";
 </script>
 
 <template>
   <Nav id="nav"></Nav>
-  <!-- <MobileNav id="mobilenav"></MobileNav> -->
 
   <RouterView></RouterView>
 
@@ -15,7 +13,7 @@ import { RouterView } from "vue-router";
 </template>
 
 <style scoped>
-#nav{
+/* #nav{
   display: none;
 }
 @media screen and (min-width: 700px) {
@@ -23,5 +21,5 @@ import { RouterView } from "vue-router";
     display: block;
   }
   
-}
+} */
 </style>

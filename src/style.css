@@ -63,9 +63,9 @@ button:focus-visible {
 .card {
   padding: 2em;
 }
-#menu {
+/* #menu {
   display: none;
-}
+} */
 
 #app {
   /* max-width: 1280px; */
@@ -74,14 +74,14 @@ button:focus-visible {
   text-align: center;
   align-content: center;
 }
-@media screen and (max-width: 650px) {
+/* @media screen and (max-width: 650px) {
   #menu {
     display: block;
   }
   #menu-items {
     display: none;
   }
-}
+} */
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

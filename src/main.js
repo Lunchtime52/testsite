@@ -13,9 +13,9 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 
 // ...
-// library.add(fas); // Add the solid icons to the library
+library.add(fas); // Add the solid icons to the library
 
 createApp(App)
-  // .component("font-awesome-icon", FontAwesomeIcon)
+  .component("font-awesome-icon", FontAwesomeIcon)
   .use(router)
   .mount("#app");
