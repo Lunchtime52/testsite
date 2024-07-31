@@ -26,8 +26,8 @@
       enable = true;
       previews = {
         web = {
-          # command = ["npm" "run" "dev" "--" "--port" "$PORT" "--host" "0.0.0.0"];
-           command = ["vite" "-m" "dev" "--port" "$PORT" "--host" "0.0.0.0"];
+          command = ["npm" "run" "dev" "--" "--port" "$PORT" "--host" "0.0.0.0"];
+          #  command = ["vite" "--port" "$PORT" "--host" "0.0.0.0"];
 
           manager = "web";
         };

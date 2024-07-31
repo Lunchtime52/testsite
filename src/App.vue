@@ -2,7 +2,7 @@
 import Footer from "./components/Footer.vue";
 import Nav from "./components/Nav.vue";
 import { RouterView } from "vue-router";
-import{MobileNav} from "./components/MobileNav.vue";
+// import{MobileNav} from "./components/MobileNav.vue";
 </script>
 
 <template>
