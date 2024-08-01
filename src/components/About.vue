@@ -31,6 +31,7 @@
   background-size: cover;
   background-position: left;
   background-repeat: no-repeat;
+  color: white;
   /* background: radial-gradient(transperent,gray); */
 }
 #about {
@@ -51,5 +52,10 @@
 }
 h1 {
   margin-top: 10px;
+}
+@media (prefers-color-scheme: light){
+  .button{
+    color: white;
+  }
 }
 </style>

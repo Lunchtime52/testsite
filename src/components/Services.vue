@@ -53,7 +53,7 @@
   padding: 16px;
   text-align: center;
   background-color: #e4cc37;
-  min-height: 175px;
+  min-height: 250px;
   border-radius: 10px;
   color: black;
 }
