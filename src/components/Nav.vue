@@ -50,8 +50,10 @@ nav {
   position: fixed;
   top: 0;
   height: 55px;
-  background-color: var(--secondary-color);
+  background-color: rgb(91, 91, 91);
   align-content: center;
+  /* border: #6d027b solid 4px; */
+
   /* text-align: center; */
   /* margin-right: 25%; */
 }
@@ -67,7 +69,7 @@ nav button {
   float: right;
   margin-right: 35px;
   color: black;
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 #menu-btn {
   display: none;

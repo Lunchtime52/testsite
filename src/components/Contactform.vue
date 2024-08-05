@@ -17,12 +17,16 @@
         placeholder="Your last name.."
       />
 
-      <label for="country">Country</label>
-      <select id="country" name="country">
-        <option value="australia">Australia</option>
-        <option value="canada">Canada</option>
-        <option value="usa">USA</option>
-      </select>
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" placeholder="Your email.." />
+
+      <label for="phone">Phone</label>
+      <input
+        type="text"
+        id="phone"
+        name="phone"
+        placeholder="Your phone number.."
+      />
 
       <label for="subject">Subject</label>
       <textarea
@@ -31,13 +35,21 @@
         placeholder="Write something.."
         style="height: 200px"
       ></textarea>
-
-      <input type="submit" value="Submit" />
+      <div class="submit">
+        <input type="submit" value="Submit" />
+      </div>
     </form>
   </div>
 </template>
 
 <style scoped>
+form {
+  text-align: left;
+}
+
+.submit {
+  text-align: center;
+}
 /* Style inputs with type="text", select elements and textareas */
 input[type="text"],
 select,
@@ -76,5 +88,11 @@ input[type="submit"]:hover {
   margin: 10px 20px;
   /* background-color: #f2f2f2; */
   padding: 20px;
+  max-width: 35%;
+}
+@media screen and (max-width: 650px) {
+  .container {
+   min-width: 85%;
+  }
 }
 </style>

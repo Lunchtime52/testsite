@@ -52,7 +52,7 @@
   /* this adds the "card" effect */
   padding: 16px;
   text-align: center;
-  background-color: #e4cc37;
+  background-color: var(--secondary-color);
   min-height: 250px;
   border-radius: 10px;
   color: black;
