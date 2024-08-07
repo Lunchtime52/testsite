@@ -3,6 +3,7 @@
   <div class="row">
     <div class="column">
       <div class="card">
+        <img src="https://placehold.co/300x250.png">
         <h4>Windshield Repair</h4>
         <p>
           Explain benefits of repair over replacement for minor cracks or chips.
@@ -11,12 +12,14 @@
     </div>
     <div class="column">
       <div class="card">
+        <img src="https://placehold.co/300x250.png">
         <h4>Windshield Replacement</h4>
         <p>Emphasize safety and using high-quality materials.</p>
       </div>
     </div>
     <div class="column">
       <div class="card">
+        <img src="https://placehold.co/300x250.png">
         <h4>Mobile Service</h4>
         <p>Promote the convenience of getting repairs done at your location.</p>
       </div>
@@ -26,25 +29,23 @@
 
 <style scoped>
 .column {
-  width: 25%;
+  width: 33%;
   padding: 0 10px;
-  color: white;
+  color: var(--txtcolor);
   margin-bottom: 20px;
 }
-
+img{
+  height: auto;
+  width: 100%;
+  border-radius: 10px;
+}
 /* Remove extra left and right margins, due to padding in columns */
 .row {
-  /* margin: 20px 5px; */
   justify-content: center;
   display: flex;
 }
 
-/* Clear floats after the columns */
-/* .row:after {
-  content: "";
-  display: table;
-  clear: both;
-} */
+
 
 /* Style the counter cards */
 .card {
@@ -53,13 +54,13 @@
   padding: 16px;
   text-align: center;
   background-color: var(--secondary-color);
-  min-height: 250px;
+  min-height: 400px;
   border-radius: 10px;
-  color: black;
+  color: var(--txtcolor);
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .column {
     width: 75%;
     display: block;

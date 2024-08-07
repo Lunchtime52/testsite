@@ -1,5 +1,4 @@
 <template>
-  
   <div class="card" id="about">
     <h3>About Williams Auto Glass</h3>
     <p class="right">
@@ -13,11 +12,11 @@
 </template>
 
 <style scoped>
-
 #about {
+  margin: 5% 10%;
+  border-radius: 20px;
   padding: 45px;
   text-align: left;
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
-
 </style>

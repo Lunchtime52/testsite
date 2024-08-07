@@ -8,7 +8,7 @@ onMounted(() => {
   });
 });
 function menuToggle() {
-  sideNav.toggleAttribute('hidden');
+  sideNav.toggleAttribute("hidden");
   // const reflow = element.offsetHeight;
 
   sideNav.classList.toggle("open");
@@ -25,13 +25,15 @@ defineExpose({ menuToggle });
 
 <template>
   <nav>
-    <img id="logo" src="/public/vite.svg" alt="">
-    <button id="menu-btn" @click="menuToggle">
-      <font-awesome-icon icon="fas fa-bars" />
-    </button>
-    <div id="menu-items">
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/contact">Contact</RouterLink>
+    <div>
+      <img id="logo" src="/public/vite.svg" alt="" />
+      <button id="menu-btn" @click="menuToggle">
+        <font-awesome-icon icon="fas fa-bars" />
+      </button>
+      <div class="menu-item">
+        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/contact">Contact</RouterLink>
+      </div>
     </div>
     <div id="side-nav" hidden>
       <ul>
@@ -50,26 +52,32 @@ nav {
   position: fixed;
   top: 0;
   height: 55px;
-  background-color: rgb(91, 91, 91);
+  background-color: var(--bgcolor);
   align-content: center;
   /* border: #6d027b solid 4px; */
-
-  /* text-align: center; */
-  /* margin-right: 25%; */
+  text-align: center;
+}
+nav > div {
+  justify-content: center;
+  align-items: center;
+}
+#logo {
+  float: left;
+  margin-left: 25%;
 }
 
-#menu-items :last-child {
-  padding-right: 10%;
-}
-#menu-items * {
-  padding: 15px;
-  /* color: black; */
+.menu-item {
+  float: right;
+  margin-right: 25%;
+  display: flex;
+  gap: 25px;
+  color: var(--txtcolor);
 }
 nav button {
   float: right;
-  margin-right: 35px;
-  color: black;
-  background-color: var(--secondary-color);
+  margin-right: 20%;
+  color: var(--txtcolor);
+  background-color: var(--primary-color);
 }
 #menu-btn {
   display: none;
@@ -85,37 +93,32 @@ nav button {
   position: fixed;
   text-align: center;
   top: 74px;
-  right: -250px; 
+  right: -350px;
   /* Initially off-screen */
   min-width: 50%;
   height: 100%;
-  background-color: #6d027b;
-  transition: right 0.3s ease; /* Smooth transition for opening/closing */
-  z-index: 100; /* Ensure it's above other content */
-  /* display: none; */
+  background-color: var(--bgcolor);
+  transition: right 0.3s ease; 
+  /* Smooth transition for opening/closing */
+  z-index: 100; 
+  /* Ensure it's above other content */
+  display: none;
 }
 #side-nav.open {
-  /* display: block; */
   right: 0;
 }
 @media screen and (max-width: 700px) {
-  #menu-items {
+  .menu-item {
     display: none;
   }
   #menu-btn {
     display: inline;
   }
-  #logo{
-    
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto; */
+  #side-nav {
+    display: block;
   }
-
-}
-@media (prefers-color-scheme: light){
-  nav button{
-    color: white;
+  #logo {
+    margin-left: 20%;
   }
 }
 </style>

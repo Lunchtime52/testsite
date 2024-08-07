@@ -45,31 +45,40 @@
 <style scoped>
 form {
   text-align: left;
+  border: white 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 15px;
 }
 
 .submit {
   text-align: center;
 }
-/* Style inputs with type="text", select elements and textareas */
 input[type="text"],
 select,
 textarea {
   background-color: white;
   color: black;
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 5px;
+  /* Rounded borders */
   box-sizing: border-box;
   /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /*Bottom margin */
-  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /*Bottom margin */
+  resize: vertical;
+  /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-/* Style the submit button with a specific background color etc */
 input[type="submit"] {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   color: black;
   padding: 12px 20px;
   border: none;
@@ -79,20 +88,19 @@ input[type="submit"] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: var(--secondary-color);
 }
 
-/* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
-  margin: 10px 20px;
-  /* background-color: #f2f2f2; */
+  margin-left: 5%;
   padding: 20px;
-  max-width: 35%;
+  max-width: 45%;
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
   .container {
-   min-width: 85%;
+    min-width: 85%;
+    margin: auto;
   }
 }
 </style>
