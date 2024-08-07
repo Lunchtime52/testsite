@@ -47,14 +47,15 @@ defineExpose({ menuToggle });
 
 <style scoped>
 nav {
-  padding: 10px;
+  padding: 10px 0;
   width: 100%;
   position: fixed;
   top: 0;
   height: 55px;
   background-color: var(--bgcolor);
   align-content: center;
-  /* border: #6d027b solid 4px; */
+  border-bottom: 2px solid var(--secondary-color);
+  border-radius:10px;
   text-align: center;
 }
 nav > div {

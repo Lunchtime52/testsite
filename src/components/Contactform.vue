@@ -1,4 +1,5 @@
 <template>
+  <h1>Contact Us</h1>
   <div class="container">
     <form action="action_page.php">
       <label for="fname">First Name</label>

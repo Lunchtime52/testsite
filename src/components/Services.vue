@@ -35,8 +35,9 @@
   margin-bottom: 20px;
 }
 img{
-  height: auto;
-  width: 100%;
+  /* height: auto; */
+  /* width: 100%; */
+  object-fit:contain;
   border-radius: 10px;
 }
 /* Remove extra left and right margins, due to padding in columns */
@@ -60,7 +61,7 @@ img{
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 950px) {
   .column {
     width: 75%;
     display: block;

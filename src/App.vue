@@ -12,14 +12,4 @@ import { RouterView } from "vue-router";
   <Footer></Footer>
 </template>
 
-<style scoped>
-/* #nav{
-  display: none;
-}
-@media screen and (min-width: 700px) {
-  #nav {
-    display: block;
-  }
-  
-} */
-</style>
+<style scoped></style>
