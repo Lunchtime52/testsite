@@ -1,6 +1,6 @@
 <template>
 <footer>
-    <p>&#169; 2024. All Rights Reserved.</p>
+    <p>&#169; 2024. All Rights Reserved by Ryan Buchanan.</p>
 </footer>
 
 </template>

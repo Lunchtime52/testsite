@@ -13,7 +13,7 @@
 
 <style scoped>
 #about {
-  margin: 5% 10%;
+  margin: 100px 10%;
   border-radius: 20px;
   padding: 45px;
   text-align: left;

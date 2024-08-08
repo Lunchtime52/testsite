@@ -1,11 +1,17 @@
 <script setup>
 import { onMounted, onUnmounted } from "vue";
+import {useRouter} from 'vue-router';
+
 let sideNav;
+const router = useRouter();
 onMounted(() => {
   sideNav = document.getElementById("side-nav");
   window.addEventListener("resize", () => {
     sideNav.classList.remove("open");
   });
+router.afterEach(() => {
+  sideNav.classList.remove("open");
+});
 });
 function menuToggle() {
   sideNav.toggleAttribute("hidden");
@@ -33,12 +39,15 @@ defineExpose({ menuToggle });
       <div class="menu-item">
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/contact">Contact</RouterLink>
+        <RouterLink to="/services">Services</RouterLink>
+
       </div>
     </div>
     <div id="side-nav" hidden>
       <ul>
         <li><RouterLink to="/">Home</RouterLink></li>
         <li><RouterLink to="/contact">Contact</RouterLink></li>
+        <li><RouterLink to="/services">Services</RouterLink></li>
         <!-- ... more navigation links -->
       </ul>
     </div>
@@ -51,7 +60,7 @@ nav {
   width: 100%;
   position: fixed;
   top: 0;
-  height: 55px;
+  height: 60px;
   background-color: var(--bgcolor);
   align-content: center;
   border-bottom: 3px solid var(--secondary-color);
@@ -64,19 +73,19 @@ nav > div {
 }
 #logo {
   float: left;
-  margin-left: 25%;
+  margin-left: 30%;
 }
 
 .menu-item {
   float: right;
-  margin-right: 25%;
+  margin-right: 20%;
   display: flex;
-  gap: 25px;
+  gap: 20px;
   color: var(--txtcolor);
 }
 nav button {
   float: right;
-  margin-right: 20%;
+  margin-right: 15%;
 
 }
 #menu-btn {

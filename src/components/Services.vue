@@ -34,6 +34,9 @@
   color: var(--txtcolor);
   margin-bottom: 20px;
 }
+h2{
+  margin: 50px;
+}
 img{
   /* height: auto; */
   /* width: 100%; */
@@ -52,7 +55,7 @@ img{
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   /* this adds the "card" effect */
-  padding: 16px;
+  padding: 25px;
   text-align: center;
   background-color: var(--secondary-color);
   min-height: 400px;

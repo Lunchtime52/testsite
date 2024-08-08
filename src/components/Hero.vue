@@ -22,6 +22,7 @@
   background-position: left;
   background-repeat: no-repeat;
   color: white;
+  padding: 75px 0;
 }
 .button {
   padding: 15px;
