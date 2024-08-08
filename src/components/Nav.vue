@@ -54,8 +54,8 @@ nav {
   height: 55px;
   background-color: var(--bgcolor);
   align-content: center;
-  border-bottom: 2px solid var(--secondary-color);
-  border-radius:10px;
+  border-bottom: 3px solid var(--secondary-color);
+  border-radius: 0 0 10px 10px;
   text-align: center;
 }
 nav > div {
@@ -77,8 +77,7 @@ nav > div {
 nav button {
   float: right;
   margin-right: 20%;
-  color: var(--txtcolor);
-  background-color: var(--primary-color);
+
 }
 #menu-btn {
   display: none;
@@ -86,12 +85,19 @@ nav button {
 #side-nav ul {
   list-style: none;
   padding: 0;
+  margin-top:50px;
+  
+  
 }
 #side-nav li {
-  padding-top: 10px;
+  /* padding-top: 10px; */
+  margin: 20px 0;
+  
 }
 #side-nav {
   position: fixed;
+  border:2px solid var(--secondary-color);
+  border-radius: 10px;
   text-align: center;
   top: 74px;
   right: -350px;
