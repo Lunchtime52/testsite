@@ -86,6 +86,7 @@ nav > div {
 nav button {
   float: right;
   margin-right: 15%;
+  font-size: 1.45rem;
 
 }
 #menu-btn {

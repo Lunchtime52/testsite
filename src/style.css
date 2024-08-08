@@ -4,6 +4,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  font-size: 62.5%;
 
   color-scheme: light dark;
   color: var(--txtcolor);
@@ -17,6 +18,7 @@
   --txtcolor: black;
   --secondary-color: #94fbab;
   --primary-color: #bb99ff;
+  /* max-width: 60ch; */
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -47,15 +49,15 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 4.5rem;
   line-height: 1.1;
 }
 
 button {
-  border-radius: 10px;
+  border-radius: 1rem;
   /* border: 1px solid transparent; */
   padding: 0.6em 1.2em;
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: 500;
   font-family: inherit;
   background-color: var(--primary-color);
@@ -77,6 +79,8 @@ button:focus-visible {
 
 #app {
   margin: 65px auto 0;
+  font-size: 1.75rem;
+  
   text-align: center;
   align-content: center;
 }

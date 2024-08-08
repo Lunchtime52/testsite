@@ -50,6 +50,7 @@ form {
   border-radius: 5px;
   padding: 10px;
   margin: 15px;
+  font-size: 1.5rem;
 }
 
 .submit {

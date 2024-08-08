@@ -1,3 +1,4 @@
 <template>
-    <p>Hellow World</p>
+   
+    <Test></Test>
 </template>
