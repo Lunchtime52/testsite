@@ -1,4 +1,3 @@
 <template>
-   
-    <Test></Test>
+  <Test></Test>
 </template>

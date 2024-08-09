@@ -1,86 +1,107 @@
 /* @import "https://cdn.jsdelivr.net/npm/beercss@3.6.3/dist/cdn/beer.min.css"; */
 
 :root {
+  /* Set the base font stack for the application */
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  /* Set default line height */
   line-height: 1.5;
+
+  /* Set default font weight to normal */
   font-weight: 400;
+
+  /* Set base font size (62.5% of browser default, typically 10px) */
   font-size: 62.5%;
 
+  /* Enable light and dark color schemes */
   color-scheme: light dark;
+
+  /* Set text color using a CSS variable (can be overridden for dark mode) */
   color: var(--txtcolor);
+
+  /* Set background color using a CSS variable (can be overridden for dark mode) */
   background-color: var(--bgcolor);
 
+  /* Disable artificial font smoothing for better text rendering */
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
   --bgcolor: #e8e8e8;
   --txtcolor: black;
-  --secondary-color: #94fbab;
-  --primary-color: #bb99ff;
+  --secondary-color: white;
+  --primary-color: white;
   /* max-width: 60ch; */
 }
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --txtcolor: white;
     --bgcolor: #626262;
-    --secondary-color: #06b12b;
-    --primary-color: #8547ff;
+    --secondary-color: black;
+    --primary-color: black;
   }
+} */
+
+/* Reset default body margin */
+body {
+  margin: 0;
 }
 
+/* Style for main headings */
+h1 {
+  font-size: 4.5rem;
+}
+
+/* Style for hyperlinks */
 a {
   font-weight: 500;
-  color: var(--txtcolor);
+  color: var(--txtcolor); /* Use text color variable */
   text-decoration: inherit;
   padding: 5px 10px;
   border-radius: 10px;
-  border: 4px  solid transparent;
+  border: 4px solid transparent; /* Initial transparent border for hover effect */
 }
+/* Hover effect for hyperlinks */
 a:hover {
-  /* color: #535bf2; */
-  border: 4px  solid var(--primary-color);
-  
+  /* color: #535bf2; */ /* Example hover color, currently commented out */
+  border: 4px solid var(--primary-color); /* Add colored border on hover */
 }
 
-body {
-  margin: 0;
-  /* overflow-x: hidden; */
-}
-
-h1 {
-  font-size: 4.5rem;
-  line-height: 1.1;
-}
-
+/* General button styles */
 button {
   border-radius: 1rem;
-  /* border: 1px solid transparent; */
+  /* border: 1px solid transparent; */ /* Optional transparent border, currently commented out */
   padding: 0.6em 1.2em;
   font-size: 1.5em;
   font-weight: 500;
   font-family: inherit;
-  background-color: var(--primary-color);
-  color: var(--txtcolor);
-  /* cursor: pointer; */
-  transition: border-color 0.25s;
+  background-color: var(--primary-color); /* Use primary color variable */
+  color: var(--txtcolor); /* Use text color variable */
+  /* cursor: pointer; */ /* Optional cursor change on hover, currently commented out */
+  transition: border-color 0.25s; /* Smooth transition for border color changes */
 }
+/* Hover effect for buttons */
 button:hover {
-  background-color: var(--secondary-color);
+  background-color: var(
+    --secondary-color
+  ); /* Change background color on hover */
 }
+/* Remove outline on focus for buttons */
 button:focus,
 button:focus-visible {
   outline: none;
 }
 
+/* Style for card elements */
 .card {
   padding: 2em;
 }
 
+/* Style for main app container */
 #app {
-  margin: 65px auto 0;
+  margin: 65px auto 0; /* Center horizontally with top margin */
   font-size: 1.75rem;
-  
   text-align: center;
   align-content: center;
 }
