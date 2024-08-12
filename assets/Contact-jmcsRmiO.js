@@ -1,0 +1,1 @@
+import{_ as n}from"./Contactform-BUdEZlK0.js";import{_ as t,o as c,g as _}from"./index-DtiQ6hUS.js";const e={};function r(s,a){const o=n;return c(),_(o)}const p=t(e,[["render",r]]);export{p as default};

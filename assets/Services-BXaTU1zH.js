@@ -1,0 +1,1 @@
+import{_ as e,o as n,c as _,F as r,b as o,g as a}from"./index-DtiQ6hUS.js";const l={},f=o("p",{style:{"font-size":"12px"}},"Hellow World",-1),i=o("p",{style:{"font-size":"1.2rem"}},"Hellow World",-1);function d(t,c){return n(),_(r,null,[f,i],64)}const p=e(l,[["render",d]]),m={};function u(t,c){const s=p;return n(),a(s)}const h=e(m,[["render",u]]);export{h as default};
