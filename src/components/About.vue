@@ -21,5 +21,7 @@
   padding: 45px; /* Internal spacing */
   text-align: left; /* Text alignment */
   background-color: var(--secondary-color); /* Background color from a defined variable */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Adds a subtle shadow effect to the card */
+
 }
 </style>

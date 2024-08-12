@@ -6,11 +6,11 @@
     <div class="column">
       <!-- Individual service column -->
       <div class="card">
-        <!-- Service card container -->
-        <img src="https://placehold.co/300x250.png" />
-        <!-- Placeholder image for the service -->
         <h4>Windshield Repair</h4>
         <!-- Title of the service -->
+        <!-- Service card container -->
+        <img  src="../assets/images/broken windshield.png" />
+        <!-- Placeholder image for the service -->
         <p>
           Explain benefits of repair over replacement for minor cracks or chips.
           <!-- Description of the service -->
@@ -20,11 +20,11 @@
     <div class="column">
       <!-- Individual service column -->
       <div class="card">
-        <!-- Service card container -->
-        <img src="https://placehold.co/300x250.png" />
-        <!-- Placeholder image for the service -->
-        <h4>Windshield Replacement</h4>
+        <h4>Door window replacement and repair</h4>
         <!-- Title of the service -->
+        <!-- Service card container -->
+        <img  src="../assets/images/broken side.png" />
+        <!-- Placeholder image for the service -->
         <p>Emphasize safety and using high-quality materials.</p>
         <!-- Description of the service -->
       </div>
@@ -32,15 +32,16 @@
     <div class="column">
       <!-- Individual service column -->
       <div class="card">
-        <!-- Service card container -->
-        <img src="https://placehold.co/300x250.png" />
-        <!-- Placeholder image for the service -->
         <h4>Mobile Service</h4>
         <!-- Title of the service -->
+        <!-- Service card container -->
+        <img src="../assets/images/mobileService.png" />
+        <!-- Placeholder image for the service -->
         <p>Promote the convenience of getting repairs done at your location.</p>
         <!-- Description of the service -->
       </div>
     </div>
+    <button>Learn More</button>
   </div>
 </template>
 
@@ -55,6 +56,7 @@ h2 {
   margin: 50px; /* Adds margin around the main heading */
 }
 img {
+  max-width: 15em;
   /* height: auto; */
   /* width: 100%; */
   object-fit: contain; /* Makes the image fit the container while maintaining aspect ratio */

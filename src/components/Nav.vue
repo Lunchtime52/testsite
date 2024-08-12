@@ -72,7 +72,7 @@ nav {
   background-color: var(--bgcolor); /* Set background color using a variable */
   align-content: center; /* Align items to the center vertically */
   border-bottom: 3px solid var(--secondary-color); /* Add a bottom border */
-  border-radius: 0 0 10px 10px; /* Round the bottom corners */
+  /* border-radius: 0 0 10px 10px; Round the bottom corners */
   text-align: center; /* Center align text within the navigation bar */
 }
 
