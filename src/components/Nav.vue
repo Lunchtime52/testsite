@@ -85,13 +85,13 @@ nav > div {
 /* Styles for the logo */
 #logo {
   /* float: left; */
-  margin-right: 20rem; /* Push the logo to the left */
+  margin-right: 15%; /* Push the logo to the left */
 }
 
 /* Styles for the menu items */
 .menu-item {
   /* float: right; */
-  margin-left: 15rem; /* Push the menu items to the right */
+  margin-left: 15%; /* Push the menu items to the right */
   display: inline-block; /* Display menu items in a line */
   gap: 1.5rem; /* Set spacing between menu items */
   color: var(--txtcolor); /* Set text color using a variable */
@@ -100,7 +100,7 @@ nav > div {
 /* Styles for the navigation button */
 nav button {
   float: right; /* Float the button to the right */
-  margin-right: 10rem; /* Add right margin to the button */
+  margin-right: 15%; /* Add right margin to the button */
   font-size: 1.45rem; /* Set font size of the button text */
 }
 

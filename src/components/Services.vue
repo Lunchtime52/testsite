@@ -41,8 +41,9 @@
         <!-- Description of the service -->
       </div>
     </div>
-    <button>Learn More</button>
+    
   </div>
+  <button>Learn More</button>
 </template>
 
 <style scoped>
@@ -56,7 +57,7 @@ h2 {
   margin: 50px; /* Adds margin around the main heading */
 }
 img {
-  max-width: 15em;
+  max-width: 10em;
   /* height: auto; */
   /* width: 100%; */
   object-fit: contain; /* Makes the image fit the container while maintaining aspect ratio */
