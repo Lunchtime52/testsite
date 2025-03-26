@@ -13,6 +13,9 @@
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
       "vue.volar"
+      "codestats.code-stats-vscode"
+      "esbenp.prettier-vscode"
+      "WakaTime.vscode-wakatime"
     ];
     workspace = {
       # Runs when a workspace is first created with this `dev.nix` file
